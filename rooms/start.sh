@@ -55,14 +55,14 @@ while true; do
         s ) echo "Old, faded billboards decorate the walls." ;;
         e ) ticketstate=`cat ../logic/ticket.ben`
             if [ "$ticketstate" = "yes" ]; then
-                ./pdf.sh
+                ./pdl-3b.sh
             else
                 ./haxo.sh
             fi
         	exit ;;
         w ) ticketstate=`cat ../logic/ticket.ben`
             if [ "$ticketstate" = "yes" ]; then
-                ./pdl-3b.sh
+                ./pdf.sh
             else
                 ./haxo.sh
             fi

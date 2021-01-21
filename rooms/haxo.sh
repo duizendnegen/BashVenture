@@ -15,8 +15,7 @@ echo
 
 echo
 echo "You walk through the dark tunnel, following the metro tracks."
-echo "After less than a minute, you arrive at a station. It's the"
-echo "same place you left just now."
+echo "After less than a minute, you arrive at a station."
 echo
 echo "Colourful but faded graffiti decorates the walls. Exfoliated "
 echo "black paint on the station sign still reads \"Haxo\"."
@@ -34,14 +33,14 @@ while true; do
         s ) echo "Old, faded billboards decorate the walls." ;;
         e ) ticketstate=`cat ../logic/ticket.ben`
             if [ "$ticketstate" = "yes" ]; then
-                ./pdf.sh
+                ./pdl-3b.sh
             else
                 ./haxo.sh
             fi
         	exit ;;
         w ) ticketstate=`cat ../logic/ticket.ben`
             if [ "$ticketstate" = "yes" ]; then
-                ./pdl-3b.sh
+                ./pdf.sh
             else
                 ./haxo.sh
             fi
