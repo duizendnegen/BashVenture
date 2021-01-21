@@ -51,7 +51,7 @@ while true; do
 
         ;;
 		h ) echo "You hug the computer. Nerd." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

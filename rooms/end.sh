@@ -78,7 +78,7 @@ done <"$file1"
 echo
 echo "Thank you for playing the demo of BashVenture. Pretty random storyline, I know,"
 echo "but the aim was to show off the functionality, not win a pulitzer prize."
-echo 
+echo
 echo "Whoever you are, wherever you're from - live long and prosper. Keep smiling!"
 echo
 echo "                                                                - @BenNunney"

@@ -19,7 +19,7 @@ echo "It's getting to you. Such pain. Is there a door? Who knows."
 echo
 echo "What would you like to do?"
 
-# And here's what you could have won... 
+# And here's what you could have won...
 while true; do
     read -p "> " nsewuh
     case $nsewuh in
@@ -30,7 +30,7 @@ while true; do
         w ) echo "You attempt to go west, but ALL YOU SEE IS GREEN." ;;
 		u ) echo "You think about 'using' green, but realise it's not legal in this country." ;;
 		h ) echo "You curl yourself up into a ball and rock back and forth." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

@@ -38,14 +38,14 @@ sleep 1
 # Here's where you introduce the room to the player. Be sure to tell them if there
 # Are exits - but don't give too much away. Make it fun for them to explore!
 echo
-echo "You awake to find yourself on the floor of a large room."
-echo "You still have your pillow, but your bed and duvet are gone."
-echo "You stand up, dazed and confused. It's a Thursday, or - at"
-echo "least - you think it is. You never could quite get the hang"
-echo "of Thursdays."
+echo "You find yourself at an underground platform. Rail tracks a"
+echo "third rail system of a single metro line stretch out west to"
+echo "east."
+echo "Colourful but faded graffiti decorates the walls. Exfoliated "
+echo "black paint on the station sign still reads \"Haxo\"."
 echo
-echo "You can just about see doors to the north, east, south and west."
-echo "It's kinda cold, and you're hungry."
+echo "In the dim light you can just see the tracks west and east."
+echo "It's kinda cold, a concrete wind is blowing through the station."
 echo
 echo "What would you like to do?"
 
@@ -53,17 +53,17 @@ echo "What would you like to do?"
 while true; do
     read -p "> " nsewuh
     case $nsewuh in
-        n ) ./white.sh 
-            exit ;;       # These lines will take the player to a new room - a new script file.
-        s ) ./brown.sh 
-            exit ;;       # Be sure to include 'exit' otherwise the game won't quit properly!
-        e ) ./red.sh
+        n ) echo "There's just a concrete wall here, covered in graffiti." ;;
+        s ) echo "Old, faded billboards decorate the walls." ;;
+        e ) ./pdf.sh
         	exit ;;
-        w ) ./green.sh
+        w ) ./pdl-3b.sh
         	exit ;;
-		u ) echo "There's nothing you can use right here." ;;     # Something to say? You can also just echo.
-		h ) echo "You give yourself a quick hug. It's not very satisfying." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+		u ) echo "Trying your luck, you throw a coin you had in your wallet in the ticket machine."
+            echo "The old machine rattles to life, and a small paper ticket floats to the floor."
+            echo "You pick it up and put it in your pocket." ;;
+		i ) echo "You look around and see a ticket machine in the far corner of the platform." ;;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

@@ -1,24 +1,23 @@
+Knock knock.
+
+You hear a soft thudding in the back of your mind, a
+sound, coming from inside you you weren't aware of
+before. Is it your heart, resounding in your ears?
+
 You've gone to sleep before. Lots of times, in fact.
 But last night it was... different. You felt like you were
 moving - being transported somehow over a great distance.
-It felt like you were half awake, but unable to open your
-eyes. Finally, you hear your alarm. It's time to wake up.
+It felt like you were half awake, unable to move.
 
-During this adventure, I will be your eyes and hands.
-Available commands are:
+  - - -
+
+Commands are:
 
 'n' for north,
 's' for south,
 'e' for east,
 'w' for west,
 'u' for use,
-'h' for hug.
+'i' for inspect.
 
-Ctrl-C quits.
-
-  - - -
-BashVenture was written by Ben Nunney. It's intended as
-a framework for other people to hack around with and extend.
-Hugs and love to Will Crowther and Don Woods for creating &
-porting the original Colossal Cave 'adventure' back in the 70s.
   - - -

@@ -30,7 +30,7 @@ echo
 sleep 5
 echo
 echo "A waiter brings out a tray and places it in front of you. Lifting the lid,"
-echo "you find a weird rainbow coloured pill in front of you. Very 'Martix', you think"
+echo "you find a weird rainbow coloured pill in front of you. Very 'Matrix', you think"
 echo "to yourself. What does this mean? Are you supposed to take the pill?"
 echo "Is this some kind of test? And who ARE these people?!"
 echo
@@ -48,7 +48,7 @@ while true; do
 		u ) ./end.sh
             exit ;;
 		h ) echo "You hug the person next to you. He feels cold, and doesn't move." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

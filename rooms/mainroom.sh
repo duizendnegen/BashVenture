@@ -32,13 +32,13 @@ while true; do
             exit ;;
         s ) ./brown.sh
              exit ;;
-        e ) ./red.sh 
+        e ) ./red.sh
             exit ;;
         w ) ./green.sh
             exit ;;
 		u ) echo "There's nothing you can use right here." ;;
 		h ) echo "You give yourself a quick hug. It's not very satisfying." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

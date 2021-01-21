@@ -25,7 +25,7 @@ leverstate=`cat ../logic/leverlogic.ben`
             else
                 echo "There's a delecately carved statue at the end of the room."
                 echo "It's a kitten, hewn from beautiful white marble."
-            fi 
+            fi
 
 echo
 echo "The only exit is south, back the way you came."
@@ -33,7 +33,7 @@ echo
 echo "What would you like to do?"
 
 # Now lets capture this room's actions. Note that here, the actions change depending on whether or not
-# the lever is on or off. If it's on, you go elsewhere. If it's off, you don't. 
+# the lever is on or off. If it's on, you go elsewhere. If it's off, you don't.
 while true; do
     read -p "> " nsewuh
     case $nsewuh in
@@ -49,9 +49,9 @@ while true; do
                 exit
             else
                 echo "You hug the statue. It seems to vibrate a little. Weird."
-            fi 
+            fi
             ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

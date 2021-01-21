@@ -26,13 +26,13 @@ while true; do
         n ) echo "You faceplant the wall. Idiot." ;;
         s ) ./bigroom.sh
             exit ;;
-        e ) ./gameroom.sh 
+        e ) ./gameroom.sh
             exit ;;
         w ) ./grue.sh
             exit ;;
 		u ) echo "There's nothing you can use right here." ;;
 		h ) echo "After hugging that cat you aren't sure you should try to hug yourself again." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 

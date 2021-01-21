@@ -24,7 +24,7 @@ leverstate=`cat ../logic/leverlogic.ben`
                 echo "The last time you were in this room, you turned the lever on. It's still on."
             else
                 echo "It looks like it's in the off position."
-            fi 
+            fi
 echo
 echo "The only exit is north, back the way you came."
 echo
@@ -35,7 +35,7 @@ echo "What would you like to do?"
 while true; do
     read -p "> " nsewuh
     case $nsewuh in
-        n ) ./mainroom.sh 
+        n ) ./mainroom.sh
             exit ;;
         s ) echo "You attempt to walk through the wall. You fail." ;;
         e ) echo "Right, let me explain this whole 'wall' thing to you..." ;;
@@ -46,12 +46,12 @@ while true; do
             else
                 sed -i='' 's/off/on/' ../logic/leverlogic.ben
                 echo "You push the lever to 'on', and hear a humming start elsewhere in the building."
-            fi 
+            fi
         ;;
 
 
 		h ) echo "You hug yourself, and hope nobody is watching." ;;
-        * ) echo "I'm sorry, I don't understand you. Commands are: n, e, s, w, u and h.";;
+        * ) echo "Commands are: n, e, s, w, u and i.";;
     esac
 done
 
