@@ -1,6 +1,6 @@
 refer to RATP (metro company)
 
-# Start / Haxo
+# Opening / Haxo (done; opening.ben, start.sh)
 
 You find yourself at an underground platform. Rail tracks and a third rail system of a single line stretch out west to east.
 Colourful but faded graffiti decorates the walls. Exfoliated black paint on the station sign still reads "Haxo".

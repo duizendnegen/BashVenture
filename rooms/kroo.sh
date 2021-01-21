@@ -31,8 +31,8 @@ echo "What would you like to do?"
 # And once again the room logic.
 
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "You faceplant the wall. Idiot." ;;
         s ) ./bigroom.sh
              exit ;;

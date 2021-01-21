@@ -33,8 +33,8 @@ echo "What would you like to do?"
 # In this set of actons lies the logic switch used later in the game.
 # You have to set this switch to reach the endgame.
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) ./mainroom.sh
             exit ;;
         s ) echo "You attempt to walk through the wall. You fail." ;;

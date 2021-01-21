@@ -39,8 +39,8 @@ echo
 echo "What would you like to do?"
 
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "You get up and look around. Not much over here." ;;
         s ) echo "You take a look at the decor of the room. It's pretty nice." ;;
         e ) echo "There's a curtain - but no window behind it. How odd." ;;

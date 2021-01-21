@@ -35,8 +35,8 @@ echo "What would you like to do?"
 # Now lets capture this room's actions. Note that here, the actions change depending on whether or not
 # the lever is on or off. If it's on, you go elsewhere. If it's off, you don't.
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "Somehow you think walls don't apply to you. They do." ;;
         s ) ./mainroom.sh
             exit ;;

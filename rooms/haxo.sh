@@ -1,44 +1,23 @@
 #!/bin/bash
-
 clear
 
-# Logic in the game is stored in .ben files. This sample has just one 'logic' file.
-# You can add more logic files by simply adding a 'sed' command and appropriate .ben file.
-# First off, let us reset the game logic. Use this as an example.
+# This is a repeat of the opening room in the start.sh file - if the player
+# wants to go back to the main room, this saves going through the whole
+# start script over again.
 
-sed -i='' 's/on/off/' ../logic/leverlogic.ben
-
-# Who doen't love ASCII text, right?
-# Next up, let's initialise the Title Art
+# Initialise the Title Art
 file1="../art/titleart.ben"
 while IFS= read -r line
 do
-	echo "$line"
+    echo "$line"
 done <"$file1"
 echo
 
-# Next up, let's load in the initial introduction. Script is also stored in .ben files.
-sleep 5
-file2="../script/opening.ben"
-while IFS= read -r line
-do
-	echo "$line"
-done <"$file2"
-read -p "Press [ENTER] to start..."
-
-#Okay, now that the introduction is out of the way, we can start the first room!
-clear
-file1="../art/titleart.ben"
-while IFS= read -r line
-do
-	echo "$line"
-done <"$file1"
-sleep 1
-
 echo
-echo "You find yourself at an underground platform. Rail tracks a"
-echo "third rail system of a single metro line stretch out west to"
-echo "east."
+echo "You walk through the dark tunnel, following the metro tracks."
+echo "After less than a minute, you arrive at a station. It's the"
+echo "same place you left just now."
+echo
 echo "Colourful but faded graffiti decorates the walls. Exfoliated "
 echo "black paint on the station sign still reads \"Haxo\"."
 echo
@@ -47,7 +26,7 @@ echo "It's kind of cold, a concrete wind is blowing through the station."
 echo
 echo "What would you like to do?"
 
-# Now we wait for their response - and send them somewhere accordingly.
+# And the room logic once again.
 while true; do
     read -p "> " nsewui
     case $nsewui in

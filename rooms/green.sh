@@ -21,8 +21,8 @@ echo "What would you like to do?"
 
 # And here's what you could have won...
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "The green is a bit more intense over here. Oops." ;;
         s ) echo "Such green. Much bad. Go back. SCHTAP." ;;
         e ) ./mainroom.sh

@@ -21,8 +21,8 @@ echo "What would you like to do?"
 
 # And the choices go here.
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "Face, meet wall. Wall, meet Face." ;;
         s ) echo "You can't walk through walls." ;;
         e ) echo "Nothing but wall here." ;;

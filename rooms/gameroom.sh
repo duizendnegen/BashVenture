@@ -23,8 +23,8 @@ echo
 echo "What would you like to do?"
 
 while true; do
-    read -p "> " nsewuh
-    case $nsewuh in
+    read -p "> " nsewui
+    case $nsewui in
         n ) echo "WALL EQUALS TRUE." ;;
         s ) echo "Nope. Wall." ;;
         w ) ./kroo2.sh
