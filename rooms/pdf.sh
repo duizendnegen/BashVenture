@@ -1,10 +1,6 @@
 #!/bin/bash
 clear
 
-# This is a repeat of the opening room in the start.sh file - if the player
-# wants to go back to the main room, this saves going through the whole
-# start script over again.
-
 # Initialise the Title Art
 file1="../art/titleart.ben"
 while IFS= read -r line
@@ -26,7 +22,6 @@ echo "the same."
 echo
 echo "What would you like to do?"
 
-# And the room logic once again.
 while true; do
     read -p "> " nsewui
     case $nsewui in

@@ -22,7 +22,7 @@ When master key in posession, use = open safe, find one word, which is the solut
 ```East: Haxo
 ```
 
-# Porte des Lilas, 3bis terminus
+# Porte des Lilas, 3bis terminus (in progress, pdl-3b.sh)
 
 Without a ticket (ticket = no): back to Start.
 With a ticket (ticket = yes). Arrive at the station.
@@ -30,9 +30,10 @@ With a ticket (ticket = yes). Arrive at the station.
 
 ```West: Haxo
 South: Porte des Lilas, line 11 station
+Inspect: rodents.
 ```
 
-# Porte des Lilas, line 11 station
+# Porte des Lilas, line 11 station (not started, pdl-11.sh)
 
 ```
 North: Porte des Lilas, 3bis terminus
@@ -40,7 +41,7 @@ West: key room.
 East: Porte des Lilas, oncoming train
 ```
 
-# Porte des Lilas, oncoming train
+# Porte des Lilas, oncoming train (not started, pdl-train.sh)
 
 ```
 West: death
@@ -48,7 +49,7 @@ East: death
 Inspect: find a hiding spot (hidden = yes) and a key code (key code = yes).
 ```
 
-# Porte des Lilas, key room
+# Porte des Lilas, key room (not started, pdl-key.sh)
 
 ```
 Use: enter key code, or take master key when open
