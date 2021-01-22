@@ -11,7 +11,7 @@ Inspect: ticket machine
 Use: buy a ticket
 ```
 
-# Place des Fêtes
+# Place des Fêtes (done, pdf.sh)
 
 Without a ticket (ticket = no): back to Start.
 With a ticket (ticket = yes). Arrive at the station.

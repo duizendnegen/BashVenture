@@ -30,19 +30,15 @@ echo "What would you like to do?"
 while true; do
     read -p "> " nsewui
     case $nsewui in
-        n ) echo "There's just a concrete wall here, covered in graffiti. TODO" ;;
-        s ) echo "Old, faded billboards decorate the walls. TODO" ;;
+        n ) echo "The bomb shelter doors are hermetically shut." ;;
+        s ) echo "There's metro tracks there, and a faint, very faint grinding of steel wheels." ;;
         e ) ./haxo.sh
         	exit ;;
-        w ) ticketstate=`cat ../logic/ticket.ben`
-            if [ "$ticketstate" = "yes" ]; then
-                ./pdl-3b.sh
-            else
-                ./haxo.sh
-            fi
-        	exit ;;
-		u ) ticketstate=`cat ../logic/key.ben`
-            if [ "$ticketstate" = "yes" ]; then
+        w ) echo "You are about to hop on the track to leave the station this way when"
+            echo "a strong force holds you back. You turn around but there's nobody there."
+            echo "You back off slightly and the tight grip it had on you loosens."
+		u ) keystate=`cat ../logic/key.ben`
+            if [ "$keystate" = "yes" ]; then
                 echo "The safe swings open, and with a wooshing sounds, so do the bomb shelter doors"
                 echo "all around you. All passengers start streaming out, without saying a word."
                 sleep 2
@@ -51,7 +47,7 @@ while true; do
                 echo "crucial to understanding something that's bigger than you"
                 sleep 2
                 echo "Suddenly relieved, you start making for the stairs. A breeze of fresh air"
-                echo "makes you feel truly alive, and hopeful."
+                echo "makes you feel alive, and hopeful."
                 sleep 4
                 ./end.sh
                 exit
