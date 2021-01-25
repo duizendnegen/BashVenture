@@ -10,7 +10,7 @@ done <"$file1"
 echo
 
 echo
-echo "You arrive at the line 3bis terminus of  of \"Porte des Lilas\"."
+echo "You arrive at the line 3bis terminus of \"Porte des Lilas\"."
 echo "Fittingly, a flowery scent flows towards you from the south."
 echo "On the west, there's the tunnel to the station you just came from."
 echo "North there's just the railway tracks."

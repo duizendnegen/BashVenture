@@ -31,7 +31,7 @@ while true; do
         	exit ;;
         w ) echo "You are about to hop on the track to leave the station this way when"
             echo "a strong force holds you back. You turn around but there's nobody there."
-            echo "You back off slightly and the tight grip it had on you loosens."
+            echo "You back off slightly and the tight grip it had on you loosens." ;;
 		u ) keystate=`cat ../logic/key.ben`
             if [ "$keystate" = "yes" ]; then
                 echo "The safe swings open, and with a wooshing sounds, so do the bomb shelter doors"
