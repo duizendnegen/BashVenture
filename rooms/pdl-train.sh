@@ -31,7 +31,7 @@ while true; do
             echo "YOU ARE DEAD."
             echo
             read -p "Press [ENTER] to try again..."
-            ./haxo.sh
+            ./start.sh
             exit ;;
         s ) echo "You try to hug the wall as the train approaches."
             sleep 3
@@ -45,7 +45,7 @@ while true; do
             echo "YOU ARE DEAD."
             echo
             read -p "Press [ENTER] to try again..."
-            ./haxo.sh
+            ./start.sh
             exit ;;
         e ) echo "You walk, then run, towards the train, hands waving, shouting,"
             echo "frantically looking for an exit or a place to hide."
@@ -60,7 +60,7 @@ while true; do
             echo "YOU ARE DEAD."
             echo
             read -p "Press [ENTER] to try again..."
-            ./haxo.sh
+            ./start.sh
             exit ;;
         w ) echo "You run as fast as you can back to the platform,"
             echo "breathing heavily."
@@ -75,7 +75,7 @@ while true; do
             echo "YOU ARE DEAD."
             echo
             read -p "Press [ENTER] to try again..."
-            ./haxo.sh
+            ./start.sh
             exit ;;
 		u ) echo "You have nothing on you that would be able to stop an oncoming train." ;;
 		i ) echo "You look around you and see a trap door, which you hastily open."

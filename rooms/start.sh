@@ -6,7 +6,10 @@ clear
 # You can add more logic files by simply adding a 'sed' command and appropriate .ben file.
 # First off, let us reset the game logic. Use this as an example.
 
-sed -i='' 's/on/off/' ../logic/leverlogic.ben
+sed -i='' 's/yes/no/' ../logic/code.ben
+sed -i='' 's/yes/no/' ../logic/key.ben
+sed -i='' 's/yes/no/' ../logic/rodents.ben
+sed -i='' 's/yes/no/' ../logic/ticket.ben
 
 # Who doen't love ASCII text, right?
 # Next up, let's initialise the Title Art

@@ -60,7 +60,7 @@ while true; do
                 echo "YOU ARE DEAD."
                 echo
                 read -p "Press [ENTER] to try again..."
-                ./haxo.sh
+                ./start.sh
                 exit
             else
                 echo "You inspect the hole in the brick wall. Rodents larger and larger come"
