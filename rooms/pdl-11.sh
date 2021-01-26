@@ -15,8 +15,9 @@ echo "indistinguishable from other metro station."
 echo "On the west, there's a grey cabin, for station attendants, presumably,"
 echo "you can't quite tell. North you smell the flowery scents coming from"
 echo "the platform where the 3bis line calls."
-echo "East there's the metro tunnel, which draws you in and repells you at the"
-echo "same time: impeding opportunity, impeding mortal danger."
+echo "East there's the metro tunnel, which draws you so, so strongly,"
+echo "but repells you at the same time: impeding opportunity, impeding"
+echo "mortal danger."
 echo
 echo "What would you like to do?"
 

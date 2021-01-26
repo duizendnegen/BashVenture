@@ -39,7 +39,7 @@ while true; do
                 sleep 2
                 echo "In the safe, a single piece of paper reads one word: \"Telegraph\"."
                 echo "There's a notion in the back of your mind that this is significant, that this is"
-                echo "crucial to understanding something that's bigger than you"
+                echo "crucial to understanding something that's bigger than you."
                 sleep 2
                 echo "Suddenly relieved, you start making for the stairs. A breeze of fresh air"
                 echo "makes you feel alive, and hopeful."

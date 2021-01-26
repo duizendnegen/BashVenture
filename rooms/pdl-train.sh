@@ -86,7 +86,7 @@ while true; do
             sleep 2
             echo "The small hole you're in is illuminated brightly, but you can't detect"
             echo "the source of the light. It does show you a code in a note on the floor:"
-            echo "'2384'."
+            echo "'5347'."
             sleep 3
             echo "You open the hatch again and walk westwards, back to the platform."
             sleep 4
