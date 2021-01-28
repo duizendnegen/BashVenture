@@ -41,7 +41,7 @@ while true; do
                     echo "It swings open and reveals a room only containing wooden desk, on"
                     echo "it a beautiful, small, brass key."
                     sleep 2
-                    echo "You pick up the key, and close the door again."
+                    echo "You pick up the key, and close the door again, back to the platform."
                     sed -i='' 's/no/yes/' ../logic/key.ben
                 else
                     echo "A small grey cabin at the west end of the platform prompts you with a"

@@ -10,7 +10,7 @@ done <"$file1"
 echo
 
 echo
-echo "You hop on the trakcs and walk westbound for a good minute. Then, out of nowhere"
+echo "You hop on the trakcs and walk eastbound for a good minute. Then, out of nowhere"
 echo "loud crackling electricity signals the third rail system activating, and a sharp,"
 echo "sharp grinding noise of an approaching train resounds mercilessly through the tunnel."
 echo
@@ -66,16 +66,11 @@ while true; do
             echo "breathing heavily."
             sleep 3
             echo "Faster than you expected the train comes around the final corner."
-            echo "Bright lights illuminate you, but there's no sound of breaks."
             sleep 2
-            echo "You're swept away, bleeding, broken."
-            sleep 4
-            echo
-            echo
-            echo "YOU ARE DEAD."
-            echo
-            read -p "Press [ENTER] to try again..."
-            ./start.sh
+            echo "Just in time you leap on the platform, panting. There's a vague feeling you"
+            echo "may have missed out on something vitally important just now..."
+            sleep 6
+            ./pdl-11.sh
             exit ;;
 		u ) echo "You have nothing on you that would be able to stop an oncoming train." ;;
 		i ) echo "You look around you and see a trap door, which you hastily open."
@@ -91,6 +86,8 @@ while true; do
             echo "You open the hatch again and walk westwards, back to the platform."
             sleep 4
             sed -i='' 's/no/yes/' ../logic/code.ben
+            echo
+            read -p "Press [ENTER] to walk back."
             ./pdl-11.sh
             exit ;;
         * ) echo "Commands are: n, e, s, w, u and i.";;
